@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator {
+public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Калькулятор ===");
@@ -11,8 +11,8 @@ public class calculator {
         System.out.print("Введите второе число: ");
         double b = scanner.nextInt();
         double result;
-        if (op == "+") {
-            result = add.add1(a, b);
+        if (op.equals("+")) {
+            result = Add.add1(a, b);
             System.out.print(result);
         }
     }
