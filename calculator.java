@@ -14,6 +14,14 @@ public class calculator {
         if (op.equals("+")) {
             result = add.add1(a, b);
             System.out.print(result);
+        } else if (op.equals("-")) {
+            result = vichitaniye.vichitaniye(a, b);
+            System.out.print(result);
+        } else if (op.equals("/")) {
+            result = delenie.delenie1(a, b);
+            System.out.print(result);
+        } else {
+            System.out.println("Иди нахуй");
         }
     }
 }
