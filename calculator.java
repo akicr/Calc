@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Калькулятор ===");
@@ -12,7 +12,7 @@ public class Calculator {
         double b = scanner.nextInt();
         double result;
         if (op.equals("+")) {
-            result = Add.add1(a, b);
+            result = add.add1(a, b);
             System.out.print(result);
         }
     }
