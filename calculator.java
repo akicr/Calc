@@ -10,5 +10,10 @@ public class calculator {
         String op = scanner.next();
         System.out.print("Введите второе число: ");
         double b = scanner.nextInt();
+        double result;
+        if (op == "+") {
+            result = add.add1(a, b);
+            System.out.print(result);
+        }
     }
 }
