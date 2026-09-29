@@ -21,7 +21,7 @@ public class calculator {
             result = delenie.delenie1(a, b);
             System.out.print(result);
         } else {
-            System.out.println("Иди нахуй");
+            System.out.println("Пока нету");
         }
     }
 }
